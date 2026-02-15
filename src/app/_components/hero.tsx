@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="bg-[#090909] text-white relative overflow-hidden">
+    <section className="bg-[#2196f3] text-white relative overflow-hidden">
       <div>
         <Image
           src={dogImg}
@@ -21,11 +21,12 @@ export function Hero() {
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl not-odd: font-bold leading-10">
-              o seu pet merece cuidado, carinho e atenção especial.
+              Cuidando do seu melhor amigo com todo amor e carinho.
             </h1>
             <p className="lg:text-lg">
-              Oferecemos os melhores serviços para garantir o bem-estar e a
-              felicidade do seu amigo de quatro patas.
+              Pet Shop Cão Boy e Clínica Veterinária completa com profissionais
+              especializados, equipamentos modernos e muito carinho para seu
+              pet!
             </p>
 
             <a

@@ -8,7 +8,7 @@ export function About() {
   return (
     <section className="bg-[#FDF6eC] py-16">
       <div className="container px-4 mx-auto">
-        <div className="grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
@@ -33,34 +33,42 @@ export function About() {
           </div>
 
           <div className="space-y-6 mt-10">
-            <h2 className="text-4xl font-bold">SOBRE</h2>
-
+            <h1 className="text-4xl font-bold">SOBRE</h1>
+            <h3 className="text-2xl font-bold">
+              Mais de 10 anos cuidando com amor do seu pet
+            </h3>
             <p>
-              Until one has loved an animal, a part of one's soul remains
-              unawakened. We believe in it and we believe in easy access to
-              things that are good for our mind, body and spirit. With a clever
-              offering, superb support and a secure checkout we ring good hands.
+              A Patinhas Pet Shop & Vet nasceu do amor incondicional pelos
+              animais. Somos uma clínica veterinária e pet shop completa, com
+              equipe especializada e equipamentos modernos para oferecer o
+              melhor atendimento. Nossa missão é proporcionar saúde, bem-estar e
+              felicidade para seu melhor amigo, com atendimento humanizado e
+              serviços de excelência.
             </p>
 
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
-                Aberto desde 2006.
+                Veterinários especializados e experientes.
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
-                Equipe com mais de 10 veterinários.
+                Equipamentos modernos e tecnologia de ponta.
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
-                Qualidade é nossa prioridade.
+                Atendimento 24 horas para emergências.
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="text-red-500" />
+                Ambiente confortável e acolhedor.
               </li>
             </ul>
 
             <div className="flex gap-2">
               <a
                 href="#"
-                className="bg-[#090909] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 
+                className="bg-[#2196f3] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 
             rounded-md"
               >
                 <WhatsappLogoIcon className="w-5 h-5 text-white" />
@@ -68,10 +76,10 @@ export function About() {
               </a>
               <a
                 href="#"
-                className="flex items-center justify-center w-fit gap-2 px-4 py-2 
+                className="bg-[#2196f3] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 
             rounded-md"
               >
-                <MapPin className="w-5 h-5 text-black" />
+                <MapPin className="w-5 h-5 text-white" />
                 Endereço da Loja
               </a>
             </div>
