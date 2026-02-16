@@ -38,8 +38,6 @@ O objetivo principal é oferecer uma experiência moderna, intuitiva e responsiv
 
 ---
 
----
-
 ## ⚙️ Como Baixar, Instalar e Rodar o Projeto
 
 ---
@@ -50,5 +48,9 @@ O objetivo principal é oferecer uma experiência moderna, intuitiva e responsiv
 git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
 
 ----
+
+### 📦 3. Instalar as dependências:
+
+npm install
 
 
