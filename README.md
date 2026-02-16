@@ -74,13 +74,8 @@ npm install
 
 ---
 
-4️⃣ Rodar o projeto em ambiente de desenvolvimento:
 
-npm run dev
-
----
-
-5️⃣ Acessar no navegador:
+4️⃣ Acessar no navegador:
 
 Após iniciar o servidor, abra:
 
