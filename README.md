@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🐾 Max Black – Pet Shop & Clínica Veterinária
 
-## Getting Started
+Este projeto é uma aplicação web desenvolvida para o **Max Black**, um pet shop e clínica veterinária
 
-First, run the development server:
+A plataforma apresenta informações institucionais e permite que clientes conheçam os serviços oferecidos, produtos disponíveis e realizem agendamentos de consultas, além de facilitar o contato direto via WhatsApp.
+
+---
+
+## 🚀 Funcionalidades
+
+- 📌 Apresentação institucional do pet shop e clínica  
+
+- 🐶 Listagem de serviços veterinários e cuidados com animais  
+
+- 🛍️ Exibição de produtos para pets  
+
+- 📅 Agendamento de consultas  
+
+- 💬 Contato direto via WhatsApp  
+
+- 🎞️ Animações e carrosséis interativos para melhor experiência do usuário  
+
+- 📱 Layout totalmente responsivo  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **Next.js** – Framework React para construção de aplicações web modernas e escaláveis.  
+
+- **React** – Biblioteca para construção de interfaces de usuário baseadas em componentes.  
+
+- **Tailwind CSS** – Framework CSS utilitário para estilização rápida e eficiente.  
+
+- **TypeScript** – Superset do JavaScript que adiciona tipagem estática ao projeto.  
+
+- **shadcn/ui** – Biblioteca de componentes acessíveis e reutilizáveis para React.  
+
+- **Embla Carousel** – Biblioteca leve para criação de carrosséis responsivos e performáticos.  
+
+- **AOS (Animate On Scroll)** – Biblioteca para criação de animações baseadas em scroll.  
+
+---
+
+## 📦 Objetivo do Projeto
+
+O objetivo principal é oferecer uma experiência moderna, intuitiva e responsiva para os clientes do Max Black, facilitando o acesso às informações e incentivando o contato e agendamento de serviços.
+
+---
+
+## ⚙️ Como Baixar, Instalar e Rodar o Projeto
+
+### 1️⃣ Baixar o repositório
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+````
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2️⃣ Instalar as dependências
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Com npm:
 
-## Learn More
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3️⃣ ## Rodar o projeto em ambiente de desenvolvimento
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   npm run dev
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4️⃣ Acessar no navegador:
+
+Após iniciar o servidor, abra:
+
+http://localhost:3000
+
+
+
