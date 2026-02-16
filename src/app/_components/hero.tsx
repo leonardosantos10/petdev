@@ -40,7 +40,7 @@ export function Hero() {
           <div className="flex items-center justify-center h-16 md:h-20">
             {/* Logo ou Nome - Posicionado à esquerda */}
             <div className="absolute left-4 text-xl md:text-2xl font-bold">
-              Pet Show Max Black
+              Pet Shop Max Black
             </div>
 
             {/* Menu Desktop - Centralizado */}
