@@ -104,14 +104,14 @@ export function Testimonials() {
           </div>
 
           <button
-            className="bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-3 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10"
+            className="bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-0 md:left-3 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10"
             onClick={scrollPrev}
           >
             <ChevronLeft className="w-6 h-6 text-gray-600" />
           </button>
 
           <button
-            className="bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-6 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10"
+            className="bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute right-0 md:-right-6 -translate-y-1/2 translate-x-1/2 md:translate-x-0 top-1/2 z-10"
             onClick={scrollNext}
           >
             <ChevronRight className="w-6 h-6 text-gray-600" />

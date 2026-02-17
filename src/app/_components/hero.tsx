@@ -39,8 +39,8 @@ export function Hero() {
         <div className="container mx-auto px-4 relative">
           <div className="flex items-center justify-center h-16 md:h-20">
             {/* Logo ou Nome - Posicionado à esquerda */}
-            <div className="absolute left-4 text-xl md:text-2xl font-bold">
-              Pet Shop Max Black
+            <div className="absolute left-2 md:left-4 text-sm md:text-xl lg:text-2xl font-bold whitespace-nowrap">
+              Max Black
             </div>
 
             {/* Menu Desktop - Centralizado */}
@@ -106,7 +106,7 @@ export function Hero() {
 
       <div className="container mx-auto pt-32 md:pt-24 pb-16 md:pb-0 px-4 relative">
         <article className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="space-y-6 ml-8">
+          <div className="space-y-6 ml-4 md:ml-8">
             <h1
               className="text-3xl md:text-4xl lg:text-5xl not-odd: font-bold leading-10 gap-14 pt-8 md:pt-12"
               data-aos="fade-down"
