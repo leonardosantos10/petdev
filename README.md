@@ -52,15 +52,12 @@ O objetivo principal é oferecer uma experiência moderna, intuitiva e responsiv
 
 ## ⚙️ Como Baixar, Instalar e Rodar o Projeto
 
-### 1️⃣ Baixar o repositório
-
-```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+### 
 
 ````
 ---
 
-2️⃣ Instalar as dependências
+1 Instalar as dependências
 
 Com npm:
 
@@ -68,14 +65,14 @@ npm install
 
 ---
 
-3️⃣ ## Rodar o projeto em ambiente de desenvolvimento
+ ### 2 Rodar o projeto em ambiente de desenvolvimento
 
    npm run dev
 
 ---
 
 
-4️⃣ Acessar no navegador:
+### 3 Acessar no navegador:
 
 Após iniciar o servidor, abra:
 
